@@ -127,6 +127,6 @@ Please follow the existing code style and include comments where appropriate.
 
 ## 👤 Author
 
-Made with ☕ and too many late nights by **Nikitas Savva & Demetris Nearchou**
+Made by **Nikitas Savva & Demetris Nearchou**
 
 ---
