@@ -31,7 +31,7 @@ You control **Scully**, a 2D animated skeleton brought back from the dead with o
 
 ## 🛠️ Built With
 
-- **Engine**: [Unity](https://unity.com/) (version X.X.X)
+- **Engine**: [Unity](https://unity.com/) (version 2021.3)
 - **Language**: C#
 - **Art Style**: 2D Pixel Art
 - **Physics**: Unity 2D Physics
@@ -90,7 +90,7 @@ Assets/
 | Action        | Key / Button         |
 |---------------|----------------------|
 | Move          | `WASD` / Arrow Keys  |
-| Attack        | `J` / Left Click     |
+| Attack        | `Left Click`         |
 | Dodge / Roll  | `Space`              |
 | Interact      | `E`                  |
 | Pause         | `Escape`             |
@@ -125,16 +125,8 @@ Please follow the existing code style and include comments where appropriate.
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 👤 Author
 
-Made with ☕ and too many late nights by **[Your Name](https://github.com/your-username)**
+Made with ☕ and too many late nights by **Nikitas Savva & Demetris Nearchou**
 
 ---
-
-*"He has no heart. That makes him fearless."*
