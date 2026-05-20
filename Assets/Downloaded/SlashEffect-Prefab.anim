@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SkeletonAttack
+  m_Name: SlashEffect-Prefab
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -19,13 +19,13 @@ AnimationClip:
   m_FloatCurves: []
   m_PPtrCurves:
   - curve:
-    - time: 0.06666667
+    - time: 0
       value: {fileID: -636107131, guid: 97bec0afc1bd42e439bb392a8edcf589, type: 3}
-    - time: 0.31666666
+    - time: 0.016666668
       value: {fileID: 303278072, guid: 97bec0afc1bd42e439bb392a8edcf589, type: 3}
-    - time: 0.53333336
+    - time: 0.033333335
       value: {fileID: 846320817, guid: 97bec0afc1bd42e439bb392a8edcf589, type: 3}
-    - time: 0.81666666
+    - time: 0.05
       value: {fileID: 1907891021, guid: 97bec0afc1bd42e439bb392a8edcf589, type: 3}
     attribute: m_Sprite
     path: 
@@ -55,7 +55,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.8333333
+    m_StopTime: 0.06666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
