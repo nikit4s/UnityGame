@@ -65,26 +65,6 @@ You control **Scully**, a 2D animated skeleton brought back from the dead with o
 
 ---
 
-## 🗂️ Project Structure
-
-```
-Assets/
-├── Animations/       # Scully and enemy animation controllers
-├── Art/              # Sprites, tilesets, and UI assets
-├── Audio/            # Music and sound effects
-├── Prefabs/          # Reusable game objects (enemies, traps, doors)
-├── Scenes/           # Game scenes and levels
-├── Scripts/
-│   ├── Player/       # Scully's movement, combat, health
-│   ├── Enemies/      # Enemy AI and behavior
-│   ├── Traps/        # Trap logic and triggers
-│   ├── Dungeon/      # Room management and unlocking
-│   └── UI/           # HUD, menus, and overlays
-└── Tilemaps/         # Dungeon tilemap assets
-```
-
----
-
 ## 🎯 Controls
 
 | Action        | Key / Button         |
@@ -111,21 +91,7 @@ Assets/
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to help build Scully:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
-Please follow the existing code style and include comments where appropriate.
-
----
-
-## 👤 Author
+## 👤 Authors
 
 Made by **Nikitas Savva & Demetris Nearchou**
 
