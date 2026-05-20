@@ -1,5 +1,5 @@
-# 💀 Scully <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/236b9d97-694c-41dc-b7b7-baf6bb46bb4a" />
 
+<img width="1536" height="1024" alt="SCULLY_Transparent" src="https://github.com/user-attachments/assets/fde951e2-72a5-46c2-b973-b266b8b7760b" />
 
 > *The dead don't rest. Neither does he.*
 
