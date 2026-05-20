@@ -1,4 +1,5 @@
-# 💀 Scully
+# 💀 Scully <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/236b9d97-694c-41dc-b7b7-baf6bb46bb4a" />
+
 
 > *The dead don't rest. Neither does he.*
 
