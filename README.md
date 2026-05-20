@@ -49,7 +49,7 @@ You control **Scully**, a 2D animated skeleton brought back from the dead with o
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/scully.git
+   git clone https://github.com/nikit4s/UnityGame
    ```
 
 2. **Open in Unity**
@@ -59,7 +59,7 @@ You control **Scully**, a 2D animated skeleton brought back from the dead with o
 
 3. **Load the main scene**
    - In the Project window, navigate to `Assets/Scenes/`
-   - Open `MainMenu.unity` or `Level_01.unity` to start playing
+   - Open `MainMenu.unity` to start playing
 
 4. **Press Play** ▶️
 
