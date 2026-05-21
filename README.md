@@ -11,22 +11,22 @@
 
 You control **Scully**, a 2D animated skeleton brought back from the dead with one purpose: fight his way through the dungeon and destroy whatever lies at the end.
 
-- ⚔️ **Kill mobs** — Encounter a variety of enemies that grow stronger as you progress deeper
-- 🪤 **Avoid traps** — Navigate spike pits, swinging blades, pressure plates, and more
-- 🔐 **Unlock new rooms** — Discover keys, levers, and secrets that open the path forward
-- 👹 **Defeat the Final Boss** — Survive long enough and face the ultimate challenge waiting at the dungeon's end
+-  **Kill mobs** — Encounter a variety of enemies that grow stronger as you progress deeper
+-  **Avoid traps** — Navigate spike pits, swinging blades, pressure plates, and more
+-  **Unlock new rooms** — Discover keys, levers, and secrets that open the path forward
+-  **Defeat the Final Boss** — Survive long enough and face the ultimate challenge waiting at the dungeon's end
 
 ---
 
 ## Features
 
-- 🦴 Fluid 2D skeleton character animation with a unique, expressive style
-- 🏰 Procedurally influenced dungeon layouts with hand-crafted room encounters
-- 🗡️ Melee combat system with attack combos and dodge mechanics
-- 💀 Variety of enemy mobs, each with unique behavior patterns
-- 🔦 Atmospheric pixel art visuals with dynamic lighting
-- 🎵 Immersive dungeon soundtrack and sound effects
-- 💾 Save system with checkpoint rooms
+-  Fluid 2D skeleton character animation with a unique, expressive style
+-  Procedurally influenced dungeon layouts with hand-crafted room encounters
+-  Melee combat system with attack combos and dodge mechanics
+-  Variety of enemy mobs, each with unique behavior patterns
+-  Atmospheric pixel art visuals with dynamic lighting
+-  Immersive dungeon soundtrack and sound effects
+-  Save system with checkpoint rooms
 
 ---
 
