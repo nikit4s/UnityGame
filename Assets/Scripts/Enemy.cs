@@ -132,16 +132,27 @@ else
     }
 
     void Die()
+{
+    EnemySpawner spawner = FindFirstObjectByType<EnemySpawner>();
+
+    if (spawner != null)
     {
-        EnemySpawner spawner = FindFirstObjectByType<EnemySpawner>();
-
-        if (spawner != null)
-        {
-            spawner.EnemyDied();
-        }
-
-        Instantiate(coinPrefab, transform.position, Quaternion.identity);
-
-        Destroy(gameObject);
+        spawner.EnemyDied();
     }
+
+    // If this enemy is the boss
+    if (canMove)
+    {
+        VictoryManager vm = FindFirstObjectByType<VictoryManager>();
+
+        if (vm != null)
+        {
+            vm.ShowVictory();
+        }
+    }
+
+    Instantiate(coinPrefab, transform.position, Quaternion.identity);
+
+    Destroy(gameObject);
+}
 }
