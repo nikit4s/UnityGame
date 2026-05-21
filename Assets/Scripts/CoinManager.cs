@@ -20,4 +20,8 @@ public class CoinManager : MonoBehaviour
 
         coinText.text = coins.ToString();
     }
+public void UpdateUI()
+{
+    coinText.text = coins.ToString();
+}
 }
