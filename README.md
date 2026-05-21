@@ -7,7 +7,7 @@
 
 ---
 
-## 🎮 Gameplay Overview
+## Gameplay Overview
 
 You control **Scully**, a 2D animated skeleton brought back from the dead with one purpose: fight his way through the dungeon and destroy whatever lies at the end.
 
@@ -18,7 +18,7 @@ You control **Scully**, a 2D animated skeleton brought back from the dead with o
 
 ---
 
-## ✨ Features
+## Features
 
 - 🦴 Fluid 2D skeleton character animation with a unique, expressive style
 - 🏰 Procedurally influenced dungeon layouts with hand-crafted room encounters
@@ -30,7 +30,7 @@ You control **Scully**, a 2D animated skeleton brought back from the dead with o
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 - **Engine**: [Unity](https://unity.com/) (version 2021.3)
 - **Language**: C#
@@ -39,7 +39,7 @@ You control **Scully**, a 2D animated skeleton brought back from the dead with o
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -66,7 +66,7 @@ You control **Scully**, a 2D animated skeleton brought back from the dead with o
 
 ---
 
-## 🎯 Controls
+## Controls
 
 | Action        | Key / Button         |
 |---------------|----------------------|
@@ -92,7 +92,7 @@ You control **Scully**, a 2D animated skeleton brought back from the dead with o
 
 ---
 
-## 👤 Authors
+## Authors
 
 Made by **Nikitas Savva & Demetris Nearchou**
 
