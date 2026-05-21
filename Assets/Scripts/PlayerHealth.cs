@@ -13,6 +13,7 @@ public class PlayerHealth : MonoBehaviour
     private bool invincible = false;
 
     private SpriteRenderer sr;
+    public GameObject gameOverPanel;
 
     void Start()
     {
@@ -45,6 +46,9 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+           
+            gameOverPanel.SetActive(true);
+            Time.timeScale = 0f;
             Debug.Log("Player Dead");
         }
     }

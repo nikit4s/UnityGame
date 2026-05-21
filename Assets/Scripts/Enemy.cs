@@ -8,6 +8,11 @@ public class Enemy : MonoBehaviour
     public GameObject coinPrefab;
 
 	public GameObject slashEffect;
+	
+	//This is for boss
+	private Vector3 originalScale;
+	public bool canMove = false;
+	public float moveSpeed = 2f;
 
     // Health
     public int maxHealth = 3;
@@ -31,23 +36,58 @@ public class Enemy : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
         animator = GetComponent<Animator>();
+
+		originalScale = transform.localScale;
     }
 
     void Update()
+{
+    if (player == null)
+        return;
+	// Face player left/right
+if (canMove)
+{
+    if (player.position.x > transform.position.x)
+{
+    transform.localScale = new Vector3(-Mathf.Abs(originalScale.x), originalScale.y, originalScale.z);
+}
+else
+{
+    transform.localScale = new Vector3(Mathf.Abs(originalScale.x), originalScale.y, originalScale.z);
+}
+}
+    // Boss movement
+    if (canMove)
     {
-        if (player == null)
-            return;
-
-        float distance = Vector2.Distance(transform.position, player.position);
-
-        if (distance <= attackRange && Time.time >= nextAttackTime)
-        {
-            Attack();
-
-            nextAttackTime = Time.time + attackCooldown;
-        }
+        transform.position = Vector2.MoveTowards(
+            transform.position,
+            player.position,
+            moveSpeed * Time.deltaTime
+        );
     }
 
+    // Attack logic
+    float distance = Vector2.Distance(transform.position, player.position);
+
+    if (distance <= attackRange && Time.time >= nextAttackTime)
+    {
+        Attack();
+
+        nextAttackTime = Time.time + attackCooldown;
+    }
+}
+	private void OnCollisionEnter2D(Collision2D collision)
+{
+    if (collision.gameObject.CompareTag("Player"))
+    {
+        PlayerHealth ph = collision.gameObject.GetComponent<PlayerHealth>();
+
+        if (ph != null)
+        {
+            ph.TakeDamage(transform.position);
+        }
+    }
+}
     void Attack()
 	{
     StartCoroutine(ShowSlash());
